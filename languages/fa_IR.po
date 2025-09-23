@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parsa theme 1.1\n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: Amirsafa\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Movies"
+msgstr "فیلم‌ها"
+
+msgid "Movie"
+msgstr "فیلم"
+
+msgid "Genres"
+msgstr "ژانرها"
+
+msgid "Genre"
+msgstr "ژانر"
+
+msgid "Primary Menu"
+msgstr "منوی اصلی"
+
+msgid "Home"
+msgstr "خانه"
+
+msgid "About"
+msgstr "درباره"
+
+msgid "Contact"
+msgstr "تماس"
+
+msgid "Movie Details"
+msgstr "جزئیات فیلم"
+
+msgid "Release Year"
+msgstr "سال انتشار"
+
+msgid "Director"
+msgstr "کارگردان"
+
+msgid "Rating (0-10)"
+msgstr "امتیاز (0-10)"
+
+msgid "A simple responsive theme to showcase movies."
+msgstr "یک قالب ساده و واکنش‌گرا برای نمایش فیلم‌ها."
+
+msgid "Latest Movies"
+msgstr "جدیدترین فیلم‌ها"
+
+msgid "View"
+msgstr "نمایش"
+
+msgid "No movies found."
+msgstr "هیچ فیلمی یافت نشد."
+
+msgid "No movies found in this archive."
+msgstr "هیچ فیلمی در این بایگانی یافت نشد."
+
+msgid "Movies —"
+msgstr "فیلم‌ها —"
+
+msgid "Pagination"
+msgstr "صفحه‌بندی"
+
+msgid "Movies"
+msgstr "فیلم‌ها"
+
+msgid "primary"
+msgstr "اصلی(اولیه)"
+
+msgid "Categories"
+msgstr "دسته بندی"
+
+msgid "Series"
+msgstr "سریال"
+
+msgid "Actors"
+msgstr "بازیگران"
+
+msgid "Latest dubbing"
+msgstr "جدید ترین دوبله ها"
+
+msgid "Back"
+msgstr "بازگشت"
+
+msgid "Path"
+msgstr "مسیر"
+
+msgid "Samsung player"
+msgstr "پلیر تلوزیون های سامسونگ"
+
+msgid "Old player"
+msgstr "پلیر تلوزیون های قدیمی"
+
+msgid "Did you encounter any problems while watching"
+msgstr "حین تماشا با مشکلی رو به رو شدید؟"
+
+msgid "Report a problem"
+msgstr "اعلام مشکل"
+
+msgid "Turn off your VPN before you start watching online."
+msgstr "پیش از شروع تماشای آنلاین وی پی ان خود را خاموش کنید"
+
+msgid "Buy a subscription"
+msgstr "خرید اشتراک"
+
+msgid "(12 Vote)"
+msgstr "(12 رای)"
+
+msgid "View movies"
+msgstr "مشاهده همه فیلم ها"

@@ -1,0 +1,1 @@
+Install the theme on a WordPress site whose language is set to فارسی (Persian) — everything (demo content, menus, widgets, custom post types, RTL styles and translations) will be configured automatically.

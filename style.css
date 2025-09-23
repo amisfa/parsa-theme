@@ -8,3 +8,127 @@ Text Domain: studioparsa
 Version: 1.0.0
 License: GNU General Public License v2 or later
 */
+
+@font-face {
+    font-family: "YekanBakh";
+    src: url("assets/fonts/yekan-bakh/bakh.eot");
+    src: url("assets/fonts/yekan-bakh/bakh.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/yekan-bakh/bakh.woff") format("woff"),
+    url("assets/fonts/yekan-bakh/bakh.woff2") format("woff2"),
+    url("assets/fonts/yekan-bakh/bakh.ttf") format("truetype");
+    font-weight: auto;
+    font-style: auto;
+    font-display: auto;
+}
+
+:root {
+    --accent: #1976d2;
+    --muted: #666;
+    --bg: #ffffff;
+    --card-border: #e9e9e9;
+    --vh: 1vh;
+    --header-height: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "YekanBakh", serif !important;
+    margin: 0;
+    color: #111;
+    background: var(--bg);
+    line-height: 1.5;
+    background-color: #1b1c1f;
+}
+.logo {
+    height: 75px;
+}
+a, a:hover {
+    text-decoration: none !important;
+}
+a:hover {
+    color: #ab070f !important;
+}
+#movie-slider {
+    height: calc(var(--vh) * 100 - var(--header-height));
+}
+.progress-slide-carousel,
+.progress-slide-carousel .swiper-wrapper,
+.progress-slide-carousel .swiper-slide {
+    height: 100%;
+}
+.menu-item {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.swiper-wrapper {
+    width: 100%;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #4F46E5 !important;
+}
+.glitch {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #efefef, -0.03em -0.04em 0 #440202,
+    0.025em 0.04em 0 #010136;
+    animation: glitch 725ms infinite;
+}
+
+.glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.glitch span:first-child {
+    animation: glitch 500ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    transform: translate(-0.04em, -0.03em);
+    opacity: 0.75;
+}
+
+.glitch span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    transform: translate(0.04em, 0.03em);
+    opacity: 0.75;
+}
+@keyframes glitch {
+    0% {
+        text-shadow: 0.05em 0 0 #efefef, -0.03em -0.04em 0 #440202,
+        0.025em 0.04em 0 #010136;
+    }
+    15% {
+        text-shadow: 0.05em 0 0 #efefef, -0.03em -0.04em 0 #440202,
+        0.025em 0.04em 0 #010136;
+    }
+    16% {
+        text-shadow: -0.05em -0.025em 0 #efefef, 0.025em 0.035em 0 #440202,
+        -0.05em -0.05em 0 #010136;
+    }
+    49% {
+        text-shadow: -0.05em -0.025em 0 #efefef, 0.025em 0.035em 0 #440202,
+        -0.05em -0.05em 0 #010136;
+    }
+    50% {
+        text-shadow: 0.05em 0.035em 0 #efefef, 0.03em 0 0 #440202,
+        0 -0.04em 0 #010136;
+    }
+    99% {
+        text-shadow: 0.05em 0.035em 0 #efefef, 0.03em 0 0 #440202,
+        0 -0.04em 0 #010136;
+    }
+    100% {
+        text-shadow: -0.05em 0 0 #efefef, -0.025em -0.04em 0 #440202,
+        -0.04em -0.025em 0 #010136;
+    }
+}

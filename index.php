@@ -29,7 +29,7 @@ $movies = new WP_Query($args);
                             <a href="<?php the_permalink(); ?>"
                                class="w-full h-full flex items-center justify-center rounded-2xl backdrop-brightness-50"
                                title="<?php the_title_attribute(); ?>">
-                                <div class="glitch">
+                                <div class="glitch max-lg:text-2xl text-6xl max-sm:text-lg">
                                 <span aria-hidden="true">
                                     <?php the_title(); ?>
                                 </span>
